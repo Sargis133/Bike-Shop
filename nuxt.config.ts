@@ -9,8 +9,4 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    app: {
-        baseURL: "/bike-shop/",
-        buildAssetsDir: "assets",
-    }
 })
