@@ -15,7 +15,7 @@
           <NuxtLink :to="'/catalog/' + category.id">
             <div class="flex justify-center">
               <img
-                :src="'img/category/'+category.img"
+                :src="'../img/category/'+category.img"
                 alt="category-img"
                 class="w-full h-full"
               />

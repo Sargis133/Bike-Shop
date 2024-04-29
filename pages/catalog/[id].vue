@@ -124,7 +124,7 @@
               >
                 <div class="flex justify-center relative">
                   <img
-                    :src="'/img/products/' + product.img"
+                    :src="'../img/products/' + product.img"
                     class="w-[150px] h-[150px] product-img 2xl:w-full 2xl:h-full max-sm:w-[100px]  max-sm:h-[100px]"
                     alt="product-img"
                   />

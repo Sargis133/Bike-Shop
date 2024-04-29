@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         },
     },
     app: {
-        baseURL: "/bike-shop/",
+        baseURL: "/myBike-Shop-/",
         buildAssetsDir: "assets",
     }
 })
