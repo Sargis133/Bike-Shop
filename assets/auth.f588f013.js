@@ -1,0 +1,1 @@
+import{N as i,G as n,E as o,v as r}from"./entry.1778d45b.js";const p=i((t,u)=>{{const{$store:s}=r(),{cookies:a}=n(),e=a.get("token");if(e||s.dispatch("A_CHANGE_STATE_TOKEN",null),!e&&t.path!=="/login"&&t.path!=="/registration")return o("/login");if(e&&(t.path==="/login"||t.path==="/registration"))return o("/dashboard")}});export{p as default};
