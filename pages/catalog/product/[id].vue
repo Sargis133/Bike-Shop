@@ -388,12 +388,12 @@ let isOverflow = ref<boolean>(true);
 let isShowConfirmModal = ref(false);
 
 const sliderImages = ref<string[]>([
-  "/img/products/slide-product1.jpeg",
-  "/img/products/slide-product2.jpeg",
-  "/img/products/slide-product3.jpg",
-  "/img/products/slide-product4.jpg",
-  "/img/products/slide-product5.jpg",
-  "/img/products/slide-product6.jpg",
+  "../../img/products/slide-product1.jpeg",
+  "../../img/products/slide-product2.jpeg",
+  "../../img/products/slide-product3.jpg",
+  "../../img/products/slide-product4.jpg",
+  "../../img/products/slide-product5.jpg",
+  "../../img/products/slide-product6.jpg",
 ]);
 
 const changeOptionsOverflow = (): boolean =>
