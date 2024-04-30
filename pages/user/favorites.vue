@@ -27,7 +27,7 @@
           </ui-ui-button>
           <div class="h-full flex flex-col max-md:flex-row max-md:gap-x-4 max-md:justify-between max-sm:flex-col ">
             <div class="max-w-[150px] m-auto max-md:w-[300px] max-md:flex max-md:m-0 max-sm:w-[150px] max-sm:m-auto">
-              <img :src="product.img" :alt="product.name" class="w-full" />
+              <img :src="'../img/products/'+product.img" :alt="product.name" class="w-full" />
             </div>
             <div class="p-2 ">
               <div class="[&>p]:mt-1 dark:text-gray-300">

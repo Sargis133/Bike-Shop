@@ -24,7 +24,7 @@
                 @click.stop="goToProductPageFunc(product.id)"
               >
                 <div class="max-w-[150px] max-lg:flex max-lg:self-center">
-                  <img :src="product.img" :alt="product.name" class="w-full" />
+                  <img :src="'../img/products/'+product.img" :alt="product.name" class="w-full" />
                 </div>
                 <div class="w-[200px] ml-3">
                   <div class="pt-2 dark:text-white">
